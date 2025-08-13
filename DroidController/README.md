@@ -22,14 +22,6 @@ Droid Controller is an Android application designed to control the C1-1OP (Chopp
 ## Communication Protocol
 
 - Uses JSON messages over Bluetooth to communicate with the ESP32 receiver MCU.
-- Example message:
-  ```json
-  {
-    "action": "move",
-    "direction": "forward",
-    "speed": 80
-  }
-  ```
 
 ## Getting Started
 
