@@ -1,0 +1,18 @@
+[
+    {
+        "macro":"99",
+        "label": "Bubbles!!"
+    },{
+        "macro":"100",
+        "label":"Head Left"
+    },{
+        "macro":"101",
+        "label":"Head rigth"
+    },{
+        "macro":"102",
+        "label":"Arm body"
+    },{
+        "macro":"107",
+        "label":"Bubble head"
+    }
+]

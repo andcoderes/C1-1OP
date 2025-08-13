@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Droids Controller</string>
+    <string name="connect_to_bluetooth">Connect</string>
+    <string name="editButtons">Edit</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="idle">Idle Mode</string>
+    <string name="off_idle">Off idle Mode</string>
+</resources>

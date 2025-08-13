@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182125384052",
+    "project_id": "choppercontroller",
+    "storage_bucket": "choppercontroller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182125384052:android:6e9ddf6408d5a98a781c21",
+        "android_client_info": {
+          "package_name": "cl.jacevedo.choppercontroller"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnrzHXbwbc2CktNlpGKLh2wuN5WsklZvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
