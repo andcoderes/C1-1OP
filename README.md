@@ -5,7 +5,7 @@ This workspace contains multiple subprojects for controlling and interfacing wit
 
 ## Projects
 
-- [AndroidController](AndroidController/README.md)  
+- [DroidController](DroidController/README.md)  
   Android app for controlling Chopper via Bluetooth. It uses JSON as the format of communication with the ESP32.
 
 - [BodyController](BodyController/README.md)  
