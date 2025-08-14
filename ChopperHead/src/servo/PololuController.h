@@ -5,17 +5,11 @@
 
 // Animation 0 take out arms
 // Animation 1 put arms back
-// Animation 2 Hand macro
-// Animation 3 say hi
-// Animation 4 move hand side to side
-// Animation 5 take out left arm
-// Animation 6 put left arm back
-// Animation 7 take out rigth arm
-// Animation 8 put rigth arm back
-// Animation 9 periscope out
-// Animation 10 periscope move
-// Animation 11 Periscope in
-// Animation 12 Periscope macro
+// Animation 2 say hi
+// Animation 3 say hi left arm
+// Animation 4 Persicope out
+// Animation 5 Periscope in
+// Animation 6 Periscope animation
 
 
 class PololuController{ 
@@ -28,12 +22,11 @@ class PololuController{
     private:
         String arrayKeys_[7] = {"y", "x", "b", "du", "dd", "dr", "dl"};
         int currentIndex_[7] = {0, 0, 0, 0, 0, 0, 0};
-        int scripts_[7][2] = {{0,1},{4,4}, {2,3}, {7,6}, {5,5}, {9,9}, {8,8}};
+        int scripts_[7][2] = {{0,1},{2,2}, {3,3}, {4,4}, {5,5}, {6,6}, {6,6}};
         SoftwareSerial maestroSerial;
         MiniMaestro miniMaestro;
         bool outComponent_ [2] = {false, false};
-        int animationRequieredHandOut_[6] = {1,2,3,4,5,9};
-        int animationRequieredPeriOut_[2] = {7,8};
+        int animationRequieredHandOut_[3] = {1,2,3};
         int outHandAnimation_ = 0;
         int inHandAnimation_ = 1;
         int inPeriscopeAnimation_ = 6;

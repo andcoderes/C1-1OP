@@ -49,6 +49,8 @@ void PololuController::playScriptButton(String keysAction){
         currentIndex_[actionIndex] = currentIndex;
 
         if(checkAnimation(scriptToRun)){
+            Serial.print("restart script: ");
+            Serial.println(scriptToRun);
             miniMaestro.restartScript(scriptToRun);
         }
     }
@@ -78,20 +80,8 @@ bool PololuController::checkAnimation(int animation){
             }
         }
     } 
-    if(animation == outPeriscopeAnimation_){
-        outComponent_[1] = true; // Fixed assignment
-        return true;
-    }
-    if(outComponent_[1] == true){
-        if(animation == inPeriscopeAnimation_){
-            outComponent_[1] = false; // Fixed assignment
-            return true;
-        }
-        for(int i = 0; i < 2; i++){
-            if(animationRequieredPeriOut_[i] == animation){
-                return true;
-            }
-        }
+    if(animation > 3){
+        return true; // Allow all animations greater than 3
     }
     return false;
 }

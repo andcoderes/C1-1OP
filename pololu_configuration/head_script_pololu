@@ -1,0 +1,207 @@
+
+### Sequence subroutines: ###
+
+# Sequence 0
+sub Sequence_0
+  500 0 0 0 0 0 0 
+  0 8832 2688 0 0 0 
+  0 0 0 0 0 0 frame_0..17 # Frame 0
+  500 5565 3200 7323 8832 0 0 
+  9600 frame_0_1_4_6..8_11 # Frame 1
+  500 7360 3200 frame_9_11 # Frame 2
+  500 0 0 0 0 0 0 frame_0_1_4_6_9_11 # Frame 3
+  return
+# Sequence 1
+sub Sequence_1
+  500 5565 3200 0 0 7323 0 
+  8832 0 0 0 0 0 
+  0 0 0 0 0 0 frame_0..17 # Frame 0
+  900 3200 9600 frame_9_11 # Frame 1
+  500 0 0 0 0 3648 9280 
+  0 0 frame_0_1_4_6..9_11 # Frame 2
+  500 0 0 frame_7_8 # Frame 3
+  return
+# Sequence 2
+sub Sequence_2
+  500 0 3200 0 0 0 0 
+  0 0 0 0 0 0 
+  0 0 0 0 0 0 frame_0..17 # Frame 0
+  500 5536 frame_1 # Frame 1
+  500 3200 frame_1 # Frame 2
+  500 5799 frame_1 # Frame 3
+  500 3200 frame_1 # Frame 4
+  500 0 frame_1 # Frame 5
+  return
+# Sequence 3
+sub Sequence_3
+  800 0 0 0 0 5440 0 
+  0 0 0 0 0 0 
+  0 0 0 0 0 0 frame_0..17 # Frame 0
+  800 8000 frame_4 # Frame 1
+  800 5440 frame_4 # Frame 2
+  800 8000 frame_4 # Frame 3
+  800 6769 frame_4 # Frame 4
+  800 0 frame_4 # Frame 5
+  return
+# Sequence 4
+sub Sequence_4
+  500 0 0 8384 5915 0 0 
+  0 0 0 0 0 0 
+  0 0 0 0 0 0 frame_0..17 # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  500 delay # Frame 0
+  return
+# Sequence 5
+sub Sequence_5
+  500 0 0 3840 0 0 0 
+  0 0 0 0 0 0 
+  0 0 0 0 0 0 frame_0..17 # Frame 0
+  500 0 frame_2 # Frame 1
+  return
+# Sequence 6
+sub Sequence_6
+  500 0 0 3840 0 0 0 
+  0 0 0 0 0 0 
+  0 0 0 0 0 0 frame_0..17 # Frame 0
+  500 5979 frame_2 # Frame 1
+  500 7986 frame_2 # Frame 2
+  500 8384 9472 frame_2_3 # Frame 3
+  500 2560 frame_3 # Frame 4
+  500 5251 9472 frame_2_3 # Frame 5
+  500 3902 frame_3 # Frame 6
+  500 8062 frame_3 # Frame 7
+  500 3130 frame_3 # Frame 8
+  500 5915 frame_3 # Frame 9
+  500 8075 frame_2 # Frame 10
+  500 3840 frame_2 # Frame 11
+  500 0 0 frame_2_3 # Frame 12
+  500 delay # Frame 13
+  500 delay # Frame 14
+  500 5450 frame_2 # Frame 15
+  500 6795 frame_2 # Frame 16
+  500 3840 frame_2 # Frame 17
+  return
+
+sub frame_0..17
+  17 servo
+  16 servo
+  15 servo
+  14 servo
+  13 servo
+  12 servo
+  11 servo
+  10 servo
+  9 servo
+  8 servo
+  7 servo
+  6 servo
+  5 servo
+  4 servo
+  3 servo
+  2 servo
+  1 servo
+  0 servo
+  delay
+  return
+
+sub frame_0_1_4_6..8_11
+  11 servo
+  8 servo
+  7 servo
+  6 servo
+  4 servo
+  1 servo
+  0 servo
+  delay
+  return
+
+sub frame_9_11
+  11 servo
+  9 servo
+  delay
+  return
+
+sub frame_0_1_4_6_9_11
+  11 servo
+  9 servo
+  6 servo
+  4 servo
+  1 servo
+  0 servo
+  delay
+  return
+
+sub frame_0_1_4_6..9_11
+  11 servo
+  9 servo
+  8 servo
+  7 servo
+  6 servo
+  4 servo
+  1 servo
+  0 servo
+  delay
+  return
+
+sub frame_7_8
+  8 servo
+  7 servo
+  delay
+  return
+
+sub frame_1
+  1 servo
+  delay
+  return
+
+sub frame_4
+  4 servo
+  delay
+  return
+
+sub frame_2
+  2 servo
+  delay
+  return
+
+sub frame_2_3
+  3 servo
+  2 servo
+  delay
+  return
+
+sub frame_3
+  3 servo
+  delay
+  return

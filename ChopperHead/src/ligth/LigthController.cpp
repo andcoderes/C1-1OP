@@ -116,7 +116,15 @@ void LigthController::animate(const ButtonsAction ba){
             }
         }
         if(ba.pb[0] == "du"){
-            periscope_.swapLight();
+            periscope_.on();
+        }
+        
+        if(ba.pb[0] == "dd"){
+            periscope_.off();
+        }
+
+        if(ba.pb[0] == "dl" || ba.pb[0] == "dr"){
+            periscope_.on();
         }
         
     }
