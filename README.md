@@ -20,6 +20,9 @@ This workspace contains multiple subprojects for controlling and interfacing wit
 - [receiverMCU](receiverMCU/README.md)  
   ESP32-based bridge between controllers (Android app, Flysky FS-I6X) and the droid's brain. Handles Bluetooth and RC input, forwards commands, and manages idle actions.
 
+- [Body pololu settings](pololu_configuration/body_motors.md)  
+  Servomotor position, settings and animations for chopper body
+
 ---
 
 See each project's README for build instructions and details.
