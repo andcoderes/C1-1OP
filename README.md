@@ -23,6 +23,9 @@ This workspace contains multiple subprojects for controlling and interfacing wit
 - [Body pololu settings](pololu_configuration/body_motors.md)  
   Servomotor position, settings and animations for chopper body
 
+- [Head pololu settings](pololu_configuration/head_motors.md)  
+  Servomotor position, settings and animations for chopper Head
+
 ---
 
 See each project's README for build instructions and details.
