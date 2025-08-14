@@ -23,9 +23,9 @@ class PololuController{
         void animate(std::vector<String> keys, std::vector<int> macros);
         void stop();
     private:
-        std::vector<String> arrayKeys = {"r1", "l1", "a", "102", "107"};
+        std::vector<String> arrayKeys = {"l1", "r1", "a", "102", "107"};
         std::vector<int> currentIndex = {0, 0, 0, 0, 0};
-        std::vector<std::vector<int>> scripts = {{0,100,3},{1,4,5}, {6,8}, {10}, {2}};
+        std::vector<std::vector<int>> scripts = {{0,1,2}, {3,100,4}, {5,6}, {7}, {8}};
         SoftwareSerial maestroSerial;
         MiniMaestro miniMaestro;
 

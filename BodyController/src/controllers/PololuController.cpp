@@ -18,8 +18,6 @@ PololuController::PololuController(int rx, int tx) :
 void PololuController::setup(){
     maestroSerial.begin(9600);
     delay(500);
-    Serial.println("Restart script 8");
-    miniMaestro.restartScript(8);
 }
 
 void PololuController::stop(){

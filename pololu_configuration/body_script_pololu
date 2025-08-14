@@ -1,0 +1,200 @@
+
+### Sequence subroutines: ###
+
+# Sequence 0
+sub Sequence_0
+  500 5056 0 0 0 0 0 
+  0 0 0 0 0 0 frame_0..11 # Frame 0
+  500 9216 frame_0 # Frame 1
+  500 6003 frame_1 # Frame 2
+  500 0 0 frame_0_1 # Frame 3
+  return
+# Sequence 1
+sub Sequence_1
+  350 0 0 3264 0 0 0 
+  0 0 0 0 0 0 frame_0..11 # Frame 0
+  350 7616 frame_2 # Frame 1
+  350 3264 frame_2 # Frame 2
+  350 7616 frame_2 # Frame 3
+  350 3264 frame_2 # Frame 4
+  350 0 frame_2 # Frame 5
+  return
+# Sequence 2
+sub Sequence_2
+  500 9216 5961 3264 0 0 0 
+  0 0 0 0 0 0 frame_0..11 # Frame 0
+  500 8576 frame_1 # Frame 1
+  500 5056 frame_0 # Frame 2
+  500 0 0 0 frame_0..2 # Frame 3
+  return
+# Sequence 3
+sub Sequence_3
+  500 0 0 0 7360 0 0 
+  0 0 0 0 0 0 frame_0..11 # Frame 0
+  500 3072 frame_3 # Frame 1
+  500 5888 frame_4 # Frame 2
+  500 0 0 frame_3_4 # Frame 3
+  return
+# Sequence 4
+sub Sequence_4
+  500 0 0 0 3072 5888 0 
+  0 0 0 0 0 0 frame_0..11 # Frame 0
+  500 3072 frame_4 # Frame 1
+  500 7360 frame_3 # Frame 2
+  500 0 0 frame_3_4 # Frame 3
+  return
+# Sequence 5
+sub Sequence_5
+  500 0 0 0 0 0 0 
+  3136 0 0 0 0 0 frame_0..11 # Frame 0
+  500 8832 frame_6 # Frame 1
+  500 0 frame_6 # Frame 2
+  return
+# Sequence 6
+sub Sequence_6
+  500 0 0 0 0 0 0 
+  8832 0 0 0 0 0 frame_0..11 # Frame 0
+  500 3136 frame_6 # Frame 1
+  500 0 frame_6 # Frame 2
+  return
+# Sequence 7
+sub Sequence_7
+  500 0 0 0 0 0 0 
+  0 2240 0 0 0 0 frame_0..11 # Frame 0
+  500 8768 frame_7 # Frame 1
+  500 5376 frame_7 # Frame 2
+  500 2240 frame_7 # Frame 3
+  500 8832 frame_7 # Frame 4
+  500 5376 frame_7 # Frame 5
+  500 8832 frame_7 # Frame 6
+  500 2240 frame_7 # Frame 7
+  500 8832 frame_7 # Frame 8
+  500 2240 frame_7 # Frame 9
+  500 4864 frame_7 # Frame 10
+  500 2240 frame_7 # Frame 11
+  500 8832 frame_7 # Frame 12
+  500 4768 frame_7 # Frame 13
+  500 3232 frame_7 # Frame 14
+  500 0 frame_7 # Frame 15
+  return
+# Sequence 8
+sub Sequence_8
+  500 5056 0 0 7360 0 0 
+  3136 3232 0 0 0 0 frame_0..11 # Frame 0
+  500 3072 frame_3 # Frame 1
+  500 9216 7360 frame_0_3 # Frame 2
+  500 3072 8832 frame_3_6 # Frame 3
+  500 3136 8832 frame_6_7 # Frame 4
+  500 7360 frame_3 # Frame 5
+  500 5056 frame_0 # Frame 6
+  500 5956 frame_6 # Frame 7
+  500 2240 frame_7 # Frame 8
+  500 9216 frame_0 # Frame 9
+  500 3136 frame_6 # Frame 10
+  500 8832 frame_6 # Frame 11
+  500 3136 5888 frame_6_7 # Frame 12
+  500 5056 3104 frame_0_7 # Frame 13
+  500 0 0 0 0 frame_0_3_6_7 # Frame 14
+  return
+
+sub frame_0..11
+  11 servo
+  10 servo
+  9 servo
+  8 servo
+  7 servo
+  6 servo
+  5 servo
+  4 servo
+  3 servo
+  2 servo
+  1 servo
+  0 servo
+  delay
+  return
+
+sub frame_0
+  0 servo
+  delay
+  return
+
+sub frame_1
+  1 servo
+  delay
+  return
+
+sub frame_0_1
+  1 servo
+  0 servo
+  delay
+  return
+
+sub frame_2
+  2 servo
+  delay
+  return
+
+sub frame_0..2
+  2 servo
+  1 servo
+  0 servo
+  delay
+  return
+
+sub frame_3
+  3 servo
+  delay
+  return
+
+sub frame_4
+  4 servo
+  delay
+  return
+
+sub frame_3_4
+  4 servo
+  3 servo
+  delay
+  return
+
+sub frame_6
+  6 servo
+  delay
+  return
+
+sub frame_7
+  7 servo
+  delay
+  return
+
+sub frame_0_3
+  3 servo
+  0 servo
+  delay
+  return
+
+sub frame_3_6
+  6 servo
+  3 servo
+  delay
+  return
+
+sub frame_6_7
+  7 servo
+  6 servo
+  delay
+  return
+
+sub frame_0_7
+  7 servo
+  0 servo
+  delay
+  return
+
+sub frame_0_3_6_7
+  7 servo
+  6 servo
+  3 servo
+  0 servo
+  delay
+  return
